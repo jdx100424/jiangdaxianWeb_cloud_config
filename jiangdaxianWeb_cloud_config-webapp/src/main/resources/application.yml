@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: cloud-config-server
+  profiles: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jdx100424/commonSpringMvc
+          searchPaths: respo
+          username: 15914380151@139.com
+          password: jdxjdx100424
+server:
+  port: 9021
+
+info:
+  app:
+    name: info_app_name_1
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://dis1:8761/eureka/
