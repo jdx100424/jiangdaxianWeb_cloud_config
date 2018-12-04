@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jdx100424/commonSpringMvc
-          searchPaths: respo
+          uri: https://github.com/jdx100424/jiangdaxianWeb_cloud_config
+          searchPaths: jiangdaxianWeb_cloud_config-webapp/src/main/resources/properties/config-client
           username: 15914380151@139.com
           password: jdxjdx100424
 server:
