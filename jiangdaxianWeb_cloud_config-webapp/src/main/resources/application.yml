@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/jdx100424/jiangdaxianWeb_cloud_config
-          searchPaths: jiangdaxianWeb_cloud_config-webapp/src/main/resources/properties/config-client
+          searchPaths: jiangdaxianWeb_cloud_config-webapp/src/main/resources/properties/{application}
           username: 15914380151@139.com
           password: jdxjdx100424
 server:
